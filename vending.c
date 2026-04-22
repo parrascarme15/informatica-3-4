@@ -1,4 +1,4 @@
-#include <stdio.io>
+#include <stdio.h>
 
 int main(void){
     //Variables for TORTAS CHUMA
@@ -14,19 +14,22 @@ int main(void){
     //Variables for Tacos El Piporro
     float price3 = 79.99;
     int quantity3 = 30;
-    char select3 'p'
+    char select3 = 'p';
 
     printf("Vending Machine Stock\n");
     printf("-----------------------------\n");
-    printf("price1\n");
-    printf("quantity1\n");
-    printf("select1\n");
+    printf("TORTAS CHUMA\n");
+    printf("Price:$%.2F\n",price1);
+    printf("Quantity:%d\n",quantity1);
+    printf("Select:%c\n",select1);
     printf("\n");
-    printf("price2\n");
-    printf("quantity2\n");
-    printf("select2\n");
+    printf("Coca Cola\n");
+    printf("Price:$%.2F\n",price2);
+    printf("Quantity:%d\n",quantity2);
+    printf("Select:%c\n",select2);
     printf("\n");
-    printf("price3\n");
-    printf("quantity3\n");
-    printf("select3\n");
+    printf("Tacos El Piporro\n");
+    printf("Price:$%.2F\n",price3);
+    printf("Quantity:%d\n",quantity3);
+    printf("Select:%c\n",select3);
 }
