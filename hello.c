@@ -2,6 +2,14 @@
 
 int main(void)
 {
-    printf("Hello Victor! \n");
+    char name[50];
+    printf("Enter your name: ");
+    scanf("%s",&name); //"s" se refiere al texto, osea una palabra
+    printf("Hello %s!\n", name);
+    printf("\n");
+    int age[100]
+    printf("Enter your age: ");
+    scanf("%d",&age);
+    printf("You have %d!\n", age);
 }
 
