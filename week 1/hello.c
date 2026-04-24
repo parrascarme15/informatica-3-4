@@ -7,7 +7,7 @@ int main(void)
     scanf("%s",&name); //"s" se refiere al texto, osea una palabra
     printf("Hello %s!\n", name);
     printf("\n");
-    int age[100]
+    int age;
     printf("Enter your age: ");
     scanf("%d",&age);
     printf("You have %d!\n", age);
