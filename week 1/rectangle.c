@@ -11,5 +11,6 @@ int main(void){
     printf("\n");
     int area=(width*height);
     int perimeter=2*(width+height);
-
+    printf("area = %d\n" , area);
+    printf("perimeter = %d\n" , perimeter);
 }
