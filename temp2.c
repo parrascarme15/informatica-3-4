@@ -9,16 +9,16 @@ int main(void){
     printf("Temperature in Fahrenheit = %.2f \n", Fahrenheit);
 
     if(Celsius < 0){
-        printf("%.2f is a Freezing Weather. \n", Celsius);
-    } else if(Fahrenheit < 10){
-        printf("%.2f is a Very Cold Weather. \n", Celsius);
-    } else if(Fahrenheit < 20){
-        printf("%.2f is a Chilly Weather. \n", Celsius);
-    } else if(Fahrenheit < 30){
-        printf("%.2f is a Normal Weather. \n", Celsius);
-    } else if(Fahrenheit < 40){
-        printf("%.2f is a Hot Weather. \n", Celsius);
-    } else if(Fahrenheit > 40){
-        printf("%.2f is a Very Hot Weather. \n", Celsius);
+        printf("%.2f is a ❄️ Freezing weather. \n", Celsius);
+    } else if(Celsius < 10){
+        printf("%.2f is a 🥶 Very cold weather. \n", Celsius);
+    } else if(Celsius < 20){
+        printf("%.2f is a 🧥 Chilly weather. \n", Celsius);
+    } else if(Celsius < 30){
+        printf("%.2f is a 🖼️ Normal weather. \n", Celsius);
+    } else if(Celsius < 40){
+        printf("%.2f is a ☀️ Hot weather. \n", Celsius);
+    } else {
+        printf("%.2f is a 🔥 Very hot weather. \n", Celsius);
     }
 }
